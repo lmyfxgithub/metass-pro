@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>top.metass.api</groupId>
+        <artifactId>metass-module-member</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>metass-module-member-biz</artifactId>
+    <packaging>jar</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>
+        member 模块，我们放会员业务。
+        例如说：会员中心等等
+    </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>top.metass.api</groupId>
+            <artifactId>metass-module-member-api</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>top.metass.api</groupId>
+            <artifactId>metass-module-system-api</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>top.metass.api</groupId>
+            <artifactId>metass-module-infra-api</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <!-- 业务组件 -->
+        <dependency>
+            <groupId>top.metass.api</groupId>
+            <artifactId>metass-spring-boot-starter-biz-operatelog</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>top.metass.api</groupId>
+            <artifactId>metass-spring-boot-starter-biz-weixin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>top.metass.api</groupId>
+            <artifactId>metass-spring-boot-starter-biz-tenant</artifactId>
+        </dependency>
+
+        <!-- Web 相关 -->
+        <dependency>
+            <groupId>top.metass.api</groupId>
+            <artifactId>metass-spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+
+        <!-- DB 相关 -->
+        <dependency>
+            <groupId>top.metass.api</groupId>
+            <artifactId>metass-spring-boot-starter-mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>top.metass.api</groupId>
+            <artifactId>metass-spring-boot-starter-redis</artifactId>
+        </dependency>
+
+        <!-- 消息队列相关 -->
+        <dependency>
+            <groupId>top.metass.api</groupId>
+            <artifactId>metass-spring-boot-starter-mq</artifactId>
+        </dependency>
+
+        <!-- Test 测试相关 -->
+        <dependency>
+            <groupId>top.metass.api</groupId>
+            <artifactId>metass-spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel-core</artifactId>
+            <version>3.2.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>top.metass.api</groupId>
+            <artifactId>metass-spring-boot-starter-excel</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>top.metass.api</groupId>
+            <artifactId>metass-spring-boot-starter-desensitize</artifactId>
+        </dependency>
+
+        <!-- 工具类相关 -->
+    </dependencies>
+
+</project>

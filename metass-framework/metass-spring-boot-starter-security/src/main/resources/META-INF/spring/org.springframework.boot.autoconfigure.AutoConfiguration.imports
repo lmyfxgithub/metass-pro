@@ -1,0 +1,2 @@
+top.metass.pro.framework.security.config.MetassSecurityAutoConfiguration
+top.metass.pro.framework.security.config.MetassWebSecurityConfigurerAdapter

@@ -1,0 +1,6 @@
+top.metass.pro.framework.apilog.config.MetassApiLogAutoConfiguration
+top.metass.pro.framework.jackson.config.MetassJacksonAutoConfiguration
+com.github.xiaoymin.knife4j.spring.configuration.Knife4jAutoConfiguration
+top.metass.pro.framework.swagger.config.MetassSwaggerAutoConfiguration
+top.metass.pro.framework.web.config.MetassWebAutoConfiguration
+top.metass.pro.framework.xss.config.MetassXssAutoConfiguration

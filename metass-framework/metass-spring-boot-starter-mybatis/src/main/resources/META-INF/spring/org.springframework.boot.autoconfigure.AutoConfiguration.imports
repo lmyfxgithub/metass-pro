@@ -1,0 +1,2 @@
+top.metass.pro.framework.datasource.config.MetassDataSourceAutoConfiguration
+top.metass.pro.framework.mybatis.config.MetassMybatisAutoConfiguration

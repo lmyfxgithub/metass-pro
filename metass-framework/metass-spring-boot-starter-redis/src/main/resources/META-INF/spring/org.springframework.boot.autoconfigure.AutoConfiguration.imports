@@ -1,0 +1,2 @@
+top.metass.pro.framework.redis.config.MetassRedisAutoConfiguration
+top.metass.pro.framework.redis.config.MetassCacheAutoConfiguration
